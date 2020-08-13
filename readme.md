@@ -6,7 +6,7 @@ Luarocks url: <https://luarocks.org/modules/rucciva/json-logic-lua>.
 ## Differentiation with the original json-logic:
 
 1. Empty array is evaluated to true, unlike the original json-logic which evaluate empty array to false.
-1. The library accept a third parameter in the form of lua table that can alter the behavior of json-logic
+1. The library accept a third parameter in the form of lua table that can alter the behavior of json-logic.
 1. To include additional operations:
     - includes a lua table in the third parameter  under **custom_operations** key
     - the tables contains the operation name as the key and a function as a value
